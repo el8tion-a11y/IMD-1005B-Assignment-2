@@ -1,5 +1,5 @@
-# IMD-1005B-Assignment-2
-Asignment 2
+# IMD-1005B-Assignment-3 (updated from assign 2)
+Asignment 3
 Weiyi Zhang
 101380271
 
@@ -8,7 +8,7 @@ Description of Project:
 - Morgan is a freelance photographer/digital artist who tends to work with a minimalistic and abstract art style, likes to use black, white, grey and a less saturated tone of colors, and creates some impactful photographies.
 - This site aims to help Morgan attract potential clients and commissioners and stand out amongst a sea of other beautiful portfolios, because often scan portfolios briefly before deciding whether to explore further. The site also helps the clients quickly understand the artist’s style and specialty.
 
-Design changes from Assignment 1:
+Design changes from Assignment 2 (updated):
 -  Expanding the website from only a landing page to three pages fitting the requirement of this assingment;
 -  Simplifyed the Contacts page, removing the icons of social media since I can't really figure out how to generate those;
 -  Change of portfolio pieces, replacing some work with more distinctive paintings to show more characteristic of "Alex Morgan" (pictures all from unsplash);
