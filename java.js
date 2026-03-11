@@ -2,29 +2,29 @@
 const form = document.querySelector(".contact-form");
 const thankyou = document.querySelector(".thank-you");
 
-if (form && thankYou) {
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
 
-        thankYou.style.display = "block";
-        form.reset();
+    thankyou.style.display = "block";
+    form.reset();
 
-        setTimeout(function() {
-            thankYou.style.display = "none";
-        }, 4000);
-    });
-}
+    // hide message after 4 seconds
+    setTimeout(function() {
+        thankyou.style.display = "none";
+    }, 4000);
+});
 
 
 /* --- HAMBURGER MENU SCRIPT --- */
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
-if (hamburger && navLinks) {
+if (hamburger) {
     hamburger.addEventListener("click", function() {
         navLinks.classList.toggle("active");
     });
 }
+
 
 
 
