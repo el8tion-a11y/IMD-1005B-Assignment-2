@@ -1,21 +1,23 @@
-/* --- CONTACT FORM SCRIPT --- */
+/* --- CONTACT FORM --- */
 const form = document.querySelector(".contact-form");
-const thankyou = document.querySelector(".thank-you");
+const thankYou = document.querySelector(".thank-you");
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
+if (form) {
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
 
-    thankyou.style.display = "block";
-    form.reset();
+        thankYou.style.display = "block";
+        form.reset();
 
-    // hide message after 4 seconds
-    setTimeout(function() {
-        thankyou.style.display = "none";
-    }, 4000);
-});
+        setTimeout(function() {
+            thankYou.style.display = "none";
+        }, 4000);
+    });
+}
 
 
-/* --- HAMBURGER MENU SCRIPT --- */
+/* --- HAMBURGER MENU MOBILE --- */
+/* AI assisted for debugging */
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
